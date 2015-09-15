@@ -1,0 +1,75 @@
+Algumas ordenacoes nao foram realizadas pelo fato de ultrapassarem o tempo de teste (5 minutos). Isso ocorreu principalmente com os insertion sort
+e o bubblesort(considerando um array randomico). Nos arrays randomicos, algoritmos como Quicksort executaram tao rapidos para entradas pequenas
+que nao foi possivel computar o tempo de execucao(como quicksort para 1000 entradas).Nos arrays ordenados, a maioria dos algoritmos nao teve muitos problemas,
+com excecao do Quicksortl que nao foi possivel ser executado para 100000 para o ordenado e tambem inverso.Para os inversos, o bubblesort e quicksort foram os piores algoritmos,
+sendo o melhor nesse caso o Shellsort.
+
+insertionsort busca linear,randomico,1000,244950,244950,3
+insertionsort busca linear,randomico,10000,25196456,25196456,147
+insertionsort busca linear,randomico,100000,2500289998,2500289998,11700
+insertionsort busca binaria,randomico,1000,245949,269268,3
+insertionsort busca binaria,randomico,10000,25206466,25538094,125
+insertionsort busca binaria,randomico,100000,2500391205,2504704372,9166
+shellsort,randomico,1000,15952,7946,0
+shellsort,randomico,10000,277178,157173,8
+shellsort,randomico,100000,4417495,2917489,73
+shellsort,randomico,1000000,67987162,49987155,653
+shellsort,randomico,10000000,1062283915,842283907,9004
+bubblesort,randomico,1000,244950,499500,12
+bubblesort,randomico,10000,25196456,49995000,538
+bubblesort,randomico,100000,2500289998,704982704,53641
+quicksort,randomico,1000,2228,12440,0
+quicksort,randomico,10000,29552,192441,6
+quicksort,randomico,100000,372758,2469894,57
+quicksort,randomico,1000000,4466336,29091823,310
+quicksort,randomico,10000000,48508961,346170362,3137
+mergesort,randomico,1000,19952,21950,1
+mergesort,randomico,10000,267232,287230,15
+mergesort,randomico,100000,3337856,3537854,104
+mergesort,randomico,1000000,39902848,41902846,665
+mergesort,randomico,10000000,466445568,486445566,7009
+insertionsort busca linear,ordenado,1000,0,0,0
+insertionsort busca linear,ordenado,10000,0,0,0
+insertionsort busca linear,ordenado,100000,0,0,1
+insertionsort busca linear,ordenado,1000000,0,0,17
+insertionsort busca linear,ordenado,10000000,0,0,103
+insertionsort busca binaria,ordenado,1000,3534,23393,0
+insertionsort busca binaria,ordenado,10000,35634,334478,4
+insertionsort busca binaria,ordenado,100000,353310,4339466,52
+insertionsort busca binaria,ordenado,1000000,3512521,53306593,282
+insertionsort busca binaria,ordenado,10000000,27779416,638512109,2940
+shellsort,ordenado,1000,8006,0,0
+shellsort,ordenado,10000,120005,0,2
+shellsort,ordenado,100000,1500006,0,25
+shellsort,ordenado,1000000,18000007,0,149
+shellsort,ordenado,10000000,220000008,0,1420
+bubblesort,ordenado,1000,0,499500,4
+bubblesort,ordenado,10000,0,49995000,208
+bubblesort,ordenado,100000,0,704982704,16714
+quicksort,ordenado,1000,0,499499,5
+quicksort,ordenado,10000,0,49994999,145
+mergesort,ordenado,1000,19952,21950,1
+mergesort,ordenado,10000,267232,287230,12
+mergesort,ordenado,100000,3337856,3537854,70
+mergesort,ordenado,1000000,39902848,41902846,389
+mergesort,ordenado,10000000,466445568,486445566,4016
+insertionsort busca linear,inverso,1000,499498,499498,6
+insertionsort busca linear,inverso,10000,49994910,49994910,207
+insertionsort busca linear,inverso,100000,704975103,704975103,17863
+insertionsort busca binaria,inverso,1000,500497,522921,5
+insertionsort busca binaria,inverso,10000,50004962,50328071,170
+insertionsort busca binaria,inverso,100000,705079944,709285291,14126
+shellsort,inverso,1000,12706,4700,0
+shellsort,inverso,10000,182519,62514,0
+shellsort,inverso,100000,2339697,839691,30
+shellsort,inverso,1000000,27237110,9237103,160
+shellsort,inverso,10000000,324360025,104360017,1590
+bubblesort,inverso,1000,499498,499500,20
+bubblesort,inverso,10000,49994910,49995000,462
+quicksort,inverso,1000,501,499129,0
+quicksort,inverso,10000,5023,49808723,130
+mergesort,inverso,1000,19952,21950,0
+mergesort,inverso,10000,267232,287230,10
+mergesort,inverso,100000,3337856,3537854,70
+mergesort,inverso,1000000,39902848,41902846,390
+mergesort,inverso,10000000,466445568,486445566,3950
